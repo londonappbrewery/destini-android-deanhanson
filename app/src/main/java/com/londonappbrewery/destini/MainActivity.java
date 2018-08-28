@@ -34,11 +34,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 switch (mStoryIndex) {
                     case 1:
-                        mStoryIndex = 3;
-                        mStoryTextView.setText(R.string.T3_Story);
-                        mButtonTop.setText(R.string.T3_Ans1);
-                        mButtonBottom.setText(R.string.T3_Ans2);
-                        break;
                     case 2:
                         mStoryIndex = 3;
                         mStoryTextView.setText(R.string.T3_Story);
